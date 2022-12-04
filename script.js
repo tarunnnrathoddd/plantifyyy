@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["im PCCOEIAN","YouTuber", "Developer", "website designer", "Designer", "Freelancer"],
+        strings: ["im PCCOEIAN", "Developer", "website designer", "Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["im PCCOEIAN","YouTuber", "Developer", "website designer", "Designer", "Freelancer"],
+        strings: ["im PCCOEIAN", "Developer", "website designer", "Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -50,10 +50,10 @@ $(document).ready(function(){
 
     // owl carousel script
     $('.carousel').owlCarousel({
-        margin: 20,
+        margin: 30,
         loop: true,
         autoplay: true,
-        autoplayTimeOut: 2000,
+        autoplayTimeOut: 3000,
         autoplayHoverPause: true,
         responsive: {
             0:{
